@@ -18,22 +18,21 @@ h1 {
   margin-top: 20px;
 }
 
-.avatarcaption, footer {
+footer { 
   color: rgb(255, 217, 246);
   text-align: center;
   font-family: sans-serif;
   font-style: italic;
   font-size: 15px;
-  margin:0
-  
+  margin:0 auto;  
 }
   
-.intro p, .collectionintro {
+.intro { 
   margin: 0;
   color: rgb(255, 217, 246);
   text-align: center;
   font-family:sans-serif;
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .collectionlink { /* add change of color when hovering */
@@ -52,15 +51,26 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: auto;
+  width: auto 0;
   margin-top: -35px;
 }
 
-hr {
+.avatarcaption {
+  color: rgb(255, 217, 246);
+  text-align: center;
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 15px;
+  margin-top: -15px;
+ }
+
+hr { 
   height: 8px;
   border-color: #730287;
   width: 50%;
   background: radial-gradient(circle, #b871ff, #730287);
+  box-shadow: -5px 5px 9px -1px #d688fa;
 }
 
 .introborder {
@@ -73,13 +83,27 @@ hr {
   width: 300px;
   margin-left: 37%;
   margin-right: 36%;
+  margin-top: 25px;
   border: dotted rgba(255, 106, 192, 0.3)
 }
 
 /* The Collection */
 
+.thealbums {
+  width: 250px;
+  height: 250px;
+  display: flex; 
+}
+
+.nevermind { /*find out why this isn't working*/
+  width: 300px;
+  height: 300px; 
+}
+
+/* suggestions */
 .construction {      
   display: block;
   margin: auto;
   width: auto;
   }
+
